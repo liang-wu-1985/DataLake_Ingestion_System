@@ -1,4 +1,4 @@
-# Brief intro of Modern Serve-less DaLake system 
+# Brief intro of Modern Server-less DaLake system 
 
 I produced sets of code in here just for technical discussion, there is no privacy or sensitive data at all.
 
@@ -13,6 +13,19 @@ Briefly explain the function of each code.
 
 The most critical function over Datalake system, it's resposible for ingesting data from landing zone, and store processed parquet data to storing zone.
 For better perfomance, I leveraged multiprocessing tech of Python, which helped programe fully utilized resource. be cafefull about setting numbers of processes, it should be according to the number of DPU.
+
+<B>SYNC_BUCKET_STORING_TO_USER_DAILY_JOB.PY</B>
+
+This function is reposible for copying data from bucket to another bucket for different users.
+
+<B>RUN_CRAWLER_JOB.PY</B>
+
+This a common function which is resposible for running data-discovery procedure, data is suppoesed to be catalog for post process.
+
+<B>OUTPUT_METADATA_DDL_WEEKLY_JOB.PY</B>
+
+A backup script using to backup list of processed files as well as meta data of tables (after data-discovery)
+
 
 Here is a diagram describing how this system works on AWS
 <img width="1030" src="https://github.com/liang-wu-1985/DataLake_Ingestion_System/blob/master/images/datalake-flow.png?raw=true">
