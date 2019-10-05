@@ -1,6 +1,6 @@
-# Intro Modern Serve-less DaLake system 
+# Brief intro of Modern Serve-less DaLake system 
 
-I wrote this code in here jusr for technical discussion, there ia no privacy or sentive data at all.
+I wrote sets of code in here jusr for technical discussion, there ia no privacy or sentive data at all.
 
 Considering huge data vloume from many channels as well as need to convert them into parquet format for reading effeciently, chose to use Pyspark which can easily and effecitvly ingest and convert CSV file to Parquet file.
 
