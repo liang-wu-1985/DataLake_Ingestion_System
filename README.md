@@ -1,10 +1,10 @@
 # Brief intro of Modern Serve-less DaLake system 
 
-I wrote sets of code in here jusr for technical discussion, there ia no privacy or sentive data at all.
+I wrote sets of code in here just for technical discussion, there is no privacy or sensitive data at all.
 
-Considering huge data vloume from many channels as well as need to convert them into parquet format for reading effeciently, chose to use Pyspark which can easily and effecitvly ingest and convert CSV file to Parquet file.
+Considering huge data volume from many channels as well as need to convert them into parquet format for reading efficiently, chose to use Pyspark which can easily and effectively ingest and convert CSV file to Parquet file.
 
-As for work-flow tool, I chose to use Stepfunction with Glue ETL service, realized compeletly server-less framework.
+As for work-flow tool, I chose to use Stepfunction with Glue ETL service, realized completely server-less framework.
 
 Here is a diagram describing how this system work on AWS
 
