@@ -12,7 +12,10 @@ Briefly explain the function of each code.
 <B>DATALAKE_TRANSFORMATION_S3_DAILY_JOB.PY</B>
 
 The most critical function over Datalake system, it's resposible for ingesting data from landing zone, and store processed parquet data to storing zone.
+
 For better perfomance, I leveraged multiprocessing tech of Python, which helped programe fully utilized resource. be cafefull about setting numbers of processes, it should be according to the number of DPU.
+
+For not processing data duplicately, list of processed data is stored and will compare to new target when script start each time. 
 
 <B>SYNC_BUCKET_STORING_TO_USER_DAILY_JOB.PY</B>
 
