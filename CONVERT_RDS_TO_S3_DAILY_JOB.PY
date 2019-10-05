@@ -1,5 +1,5 @@
 #################JOB_NAME:CONVERT_RDS_TO_S3_DAILY_JOB               #################
-#################Author  :Akira (WU Liang <liang.wu@axa.co.jp>)     #################
+#################Author  :WU LIANG                                  #################
 #################Version :1.0.0                                     #################
 
 import sys
@@ -58,10 +58,10 @@ for row in Conf_Df.rdd.collect():
     is_partitioned=row.asDict()['PARTITIONED']
     connstr='CONN-IDBCDB-RDS-'+schema_name
     
-    # Connection�̏����擾
+    # Connection‚Ìî•ñ‚ðŽæ“¾
     jdbc_conf = glueContext.extract_jdbc_conf(connection_name=connstr)
     
-    # DynamicFrame���쐬
+    # DynamicFrame‚ðì¬
     dynamicframe = glueContext.create_dynamic_frame.from_options(
                    connection_type=CONN_TYPE,
                    connection_options={
