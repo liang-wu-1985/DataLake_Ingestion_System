@@ -1,5 +1,5 @@
-﻿#################JOB_NAME:DATALAKE_TRANSFORMATION_S3_DAILY_JOB                                  #################
-#################Author  :Akira (WU Liang <liang.wu@axa.co.jp>)                                 #################
+#################JOB_NAME:DATALAKE_TRANSFORMATION_S3_DAILY_JOB                                  #################
+#################Author  :WU Liang                                                              #################
 #################Version :1.0.0                                                                 #################
 #################MODIFICATION DETAIL                                                            #################
 #################2019.05.11      ADD MERGE FUNCTION                                             #################
