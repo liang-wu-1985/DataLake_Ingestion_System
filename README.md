@@ -29,6 +29,10 @@ This a common function which is resposible for running data-discovery procedure,
 
 A backup script using to backup list of processed files as well as meta data of tables (after data-discovery)
 
+<B>CONVERT_RDS_TO_S3_DAILY_JOB.PY</B>
+
+FOr reading data across mutiple resource (Datalake, RDBMS etc), better to dump data from RDBMS to S3, then do data-discovery, finally all data should be join via Presto (or Athena)
+
 
 Here is a diagram describing how this system works on AWS
 <img width="1030" src="https://github.com/liang-wu-1985/DataLake_Ingestion_System/blob/master/images/datalake-flow.png?raw=true">
