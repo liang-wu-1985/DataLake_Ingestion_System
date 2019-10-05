@@ -1,5 +1,5 @@
 #################JOB_NAME:SYNC_BUCKET_STORING_TO_USER_DAILY_JOB     #################
-#################Author  :Akira (WU Liang <liang.wu@axa.co.jp>)     #################
+#################Author  :Liang Wu                                  #################
 #################Version :1.0.0                                     #################
 #################2019.06.03 ADD FUNCTION OF BACKUP CONFIG           #################
 #################2019.06.04 ADD CODE BUCKET                         #################
