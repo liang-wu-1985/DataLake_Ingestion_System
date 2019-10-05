@@ -3,8 +3,6 @@
 #################Version :1.0.0                                     #################
 #################2019.06.04      ADD CODE BUCKET                    #################
 
-#################FUNCTION: WEEKLY OUPUT ALL META INFO ABOUT DISCOVERED TABLES AS WELL AS BACKUP LIST OF PROCESSED FILES
-
 import argparse
 import datetime
 import logging
