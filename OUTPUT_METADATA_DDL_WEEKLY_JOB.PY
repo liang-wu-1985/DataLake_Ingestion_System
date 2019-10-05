@@ -1,7 +1,9 @@
 #################JOB_NAME:OUTPUT_METADATA_DDL_JOB                   #################
-#################Author  :Akira (WU Liang <liang.wu@axa.co.jp>)     #################
+#################Author  :Liang Wu                                  #################
 #################Version :1.0.0                                     #################
 #################2019.06.04      ADD CODE BUCKET                    #################
+
+#################FUNCTION: WEEKLY OUPUT ALL META INFO ABOUT DISCOVERED TABLES AS WELL AS BACKUP LIST OF PROCESSED FILES
 
 import argparse
 import datetime
