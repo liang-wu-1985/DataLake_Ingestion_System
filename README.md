@@ -35,7 +35,7 @@ FOr reading data across mutiple resource (Datalake, RDBMS etc), better to dump d
 
 
 Here is a diagram describing how this system works on AWS
-<img width="1030" src="https://github.com/liang-wu-1985/DataLake_Ingestion_System/blob/master/images/datalake-flow.png?raw=true">
+<img width="1030" src="https://github.com/liang-wu-1985/DataLake_Ingestion_System/blob/master/images/datalake-flow_1.png?raw=true">
 1	The Data in Landing Zone is from UDM server which is located in CoreIT. In this step, raw data without headers will be process by ETL job.
 
 2	After raw data is processed, rich data will go to Storing Zone, this zone store all data regardless of applications, so access is strictly restricted
